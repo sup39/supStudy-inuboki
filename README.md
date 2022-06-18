@@ -30,4 +30,8 @@ Chromeなら`chrome://extensions`にアクセスし、
 先程解凍したフォルダを選択するとインストールされます。
 
 ## 参考
+### デザイン
 - 進捗管理システムは[studyboki3](https://studyboki3.com/)を参考にしました。余談ですが、このサイトを利用して3週間で3級合格したのでおすすめです。
+### 開発
+- [Offical tutorial](https://developer.chrome.com/docs/extensions/mv3/getstarted/)
+- [Content scripts](https://developer.chrome.com/docs/extensions/mv3/content_scripts/)
