@@ -1,0 +1,56 @@
+.ProgressItemRoot
+  border-collapse: collapse
+  margin: 0
+  padding: 0 10px 10px
+  td
+    width: 4em
+    height: 4em
+    position: relative
+    border: 1px solid #666
+    cursor: pointer
+  td:before
+    content: ''
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    width: 34%
+    height: 34%
+    border-radius: 8px
+
+/* gray */
+.ProgressItem_null:before
+  background: #bbb
+.ProgressItem_null:hover
+  background: #eee
+.ProgressItem_null:active, .ProgressItem_null.selected
+  background: #ddd
+/* red */
+.ProgressItem_0:before
+  background: #fbb
+.ProgressItem_0:hover
+  background: #fee
+.ProgressItem_0:active, .ProgressItem_0.selected
+  background: #fdd
+/* yellow */
+.ProgressItem_1:before
+  background: #f4f494
+.ProgressItem_1:hover
+  background: #ffe
+.ProgressItem_1:active, .ProgressItem_1.selected
+  background: #ffc
+/* blue */
+.ProgressItem_2:before
+  background: #bff
+.ProgressItem_2:hover
+  background: #eff
+.ProgressItem_2:active, .ProgressItem_2.selected
+  background: #dff
+
+.ProgressSummary
+  border: none !important
+  width: unset !important
+  tr, td
+    border: none !important
+  td
+    text-align: right

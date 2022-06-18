@@ -1,0 +1,5 @@
+#!/bin/sh
+cd "$(realpath "$(dirname "$0")")"
+
+mkdir -p dist/
+cp -Lr manifest.json background.js images/ main.js main.css dist/

@@ -1,0 +1,23 @@
+{
+  "name": "いぬぼき学習進捗管理",
+  "description": "いぬぼき学習サイトで学習進捗を管理するための拡張機能",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://inuboki.com/*"],
+      "css": ["main.css"],
+      "js": ["main.js"]
+    }
+  ],
+  "permissions": ["storage"],
+  "icons": {
+    "16": "/images/icon16.png",
+    "32": "/images/icon32.png",
+    "48": "/images/icon48.png",
+    "128": "/images/icon128.png"
+  }
+}
